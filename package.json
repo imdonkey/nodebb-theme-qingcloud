@@ -1,0 +1,34 @@
+{
+  "name": "nodebb-theme-qingcloud",
+  "version": "0.0.1",
+  "nbbpm": {
+    "compatibility": "^0.7.0"
+  },
+  "description": "QingCloud theme for NodeBB",
+  "main": "theme.less",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "contributors": [
+    {
+      "name": "Samantha",
+      "email": "samantha@yunify.com",
+      "url": ""
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "_id": "nodebb-theme-qingcloud@0.0.1",
+  "directories": {}
+}

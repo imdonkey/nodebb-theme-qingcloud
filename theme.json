@@ -1,0 +1,8 @@
+{
+    "id": "nodebb-theme-qingcloud",
+    "name": "QingCloud",
+    "description": "QingCloud Theme for NodeBB",
+    "url": "",
+    "screenshot": "",
+    "staticDir": "images"
+}

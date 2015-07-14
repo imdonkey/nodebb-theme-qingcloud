@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-theme-qingcloud",
+	"hooks": [],
+	"scripts": [
+		"lib/persona.js",
+		"lib/modules/nprogress.js"
+	],
+  "staticDirs": {
+    "images": "images"
+  }
+}
