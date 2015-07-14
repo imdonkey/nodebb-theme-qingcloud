@@ -48,7 +48,7 @@
 		<!-- IF !config.disableSocialButtons -->
 		<li role="presentation" class="divider"></li>
 		<li role="presentation" class="dropdown-header">[[topic:share_this_post]]</li>
-		<li role="presentation">
+<!-- 		<li role="presentation">
 			<a role="menuitem" class="facebook-share" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-facebook"></i></span> Facebook</a>
 		</li>
 		<li role="presentation">
@@ -56,6 +56,9 @@
 		</li>
 		<li role="presentation">
 			<a role="menuitem" class="google-share" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-google-plus"></i></span> Google+</a>
+		</li> -->
+		<li role="presentation">
+			<a role="menuitem" class="weibo-share" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-weibo"></i></span> Weibo</a>
 		</li>
 		<!-- ENDIF !config.disableSocialButtons -->
 
