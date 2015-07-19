@@ -38,6 +38,7 @@
 </head>
 
 <body>
+  <div style="display:none"><img src="/plugins/nodebb-theme-qingcloud/images/weixin_cover.png"/></div>
 	<nav class="navbar navbar-default navbar-fixed-top header" role="navigation" id="header-menu" component="navbar">
 		<div class="container">
 			<!-- IMPORT partials/menu.tpl -->

@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-qingcloud",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "nbbpm": {
     "compatibility": "^0.7.0"
   },
