@@ -3,9 +3,6 @@
 
 .topic {
 	h1 {
-    width: @topic-width-percent;
-    min-width: @topic-min-width;
-    margin: 0 auto 30px auto;
 		line-height: 1.8em;
 		.topic-title {
 			font-size: 28px;
@@ -34,11 +31,26 @@
 			margin-top: 3px;
 		}
 	}
-
-	.posts {
+  h1 {
+    width: @topic-width-percent;
+    min-width: @topic-min-width;
+    margin: 0 auto 30px auto;
+  }
+  .bottom-post-bar {
+    width: @topic-width-percent;
+    min-width: @topic-min-width;
+    margin: 0 auto;
+  }
+  .content {
+    margin-left: 0;
+    margin-top: -10px;
+  }
+  .posts {
     margin: 0 auto;
     width: @topic-width-percent;
     min-width: @topic-min-width;
+  }
+	.posts {
 		.icon {
 			font-size: 17px;
 			line-height: 17px;
@@ -59,6 +71,9 @@
       display: inline-block;
       vertical-align: middle;
       line-height: 48px;
+    }
+    hr {
+      clear: both;
     }
 		.group-label {
 			text-transform: uppercase;
@@ -111,7 +126,7 @@
 
 	.content {
 		margin-top: 20px;
-		padding-bottom: 1px;
+		padding-bottom: 30px;
 		word-wrap: break-word;
     line-height: 1.8em;
     font-size: 14px;
@@ -159,11 +174,6 @@
 	.tags {
 		vertical-align: -40%;
 	}
-  .bottom-post-bar {
-    width: @topic-width-percent;
-    min-width: @topic-min-width;
-    margin: 0 auto;
-  }
 	h1 {
 		.btn {
 			background: @body-bg;
@@ -186,11 +196,7 @@
 	}
 
 	@media (max-width: @screen-sm-max) {
-		.content {
-			margin-left: 0;
-			margin-top: -10px;
-		}
-
+    
 		.posts .icon {
 			min-width: 0;
 			min-height: 0;
@@ -310,12 +316,37 @@
 			}
 
 			@media (max-width: @screen-sm-min) {
-				pre {
-					max-height: 250px;
-				}
+
+
+        pre {
+          max-height: 250px;
+        }
 			}
 		}
 	}
+  @media (max-width: @screen-sm-min) {
+    h1 {
+      width: auto;
+      min-width: 80%;
+      line-height: 1.4em;
+      font-size: 22px;
+    }
+    .posts,
+    .bottom-post-bar,
+    .content {
+      width: auto;
+      min-width: 80%;
+    }
+    .posts {
+      .pull-left {
+        line-height: 1.5em;
+      }
+    }
+    .tags {
+      display: inline-block;
+      margin: 0 0 30px 0
+    }
+  }
 }
 
 .thread_active_users {

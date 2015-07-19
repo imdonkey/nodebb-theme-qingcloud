@@ -1,7 +1,7 @@
 body.homepage {
   background-image: url('plugins/nodebb-theme-qingcloud/images/homepage_bg.png');
   background-size: 110%;
-  background-position: center 84%;
+  background-position: center 330px;
   background-repeat: no-repeat;
 }
 
@@ -10,6 +10,7 @@ body.homepage {
   h1 {
     margin-bottom: 20px;
     font-weight: normal;
+    line-height: 1.6em;
     font-size: @font-size-h2;
   }
   .btn {
@@ -24,5 +25,12 @@ body.homepage {
   margin-bottom: 120px;
   li {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: @screen-sm-min) {
+  body.homepage {
+    background-size: 170%;
+    background-position: center 200px;
   }
 }
