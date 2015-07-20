@@ -100,6 +100,13 @@
 		<div class="col-md-5">
 			<div style="vertical-align:top;">
 				<form class='form-horizontal'>
+
+          <!-- IF !hasPassword --> 
+          <div class="alert alert-info">
+            <p>[[user:change_password_tips]]</p>
+          </div>
+          <!-- ENDIF !hasPassword-->
+
 					<!-- IF isSelf -->
 					<div class="control-group">
 						<label class="control-label" for="inputCurrentPassword">[[user:current_password]]</label>

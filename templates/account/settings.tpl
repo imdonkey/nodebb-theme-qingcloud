@@ -10,21 +10,25 @@
 						<input type="checkbox" data-property="openOutgoingLinksInNewTab" <!-- IF settings.openOutgoingLinksInNewTab -->checked<!-- ENDIF settings.openOutgoingLinksInNewTab -->/> <strong>[[user:open_links_in_new_tab]]</strong>
 					</label>
 				</div>
+        <!--
 				<div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="topicSearchEnabled" <!-- IF settings.topicSearchEnabled -->checked<!-- ENDIF settings.topicSearchEnabled -->/> <strong>[[user:enable_topic_searching]]</strong>
 					</label>
 				</div>
 				<p class="help-block">[[user:topic_search_help]]</p>
+        -->
 			</div>
 
 			<h4>[[global:privacy]]</h4>
 			<div class="well">
+        <!--
 				<div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="showemail" <!-- IF settings.showemail -->checked <!-- ENDIF settings.showemail -->/> <strong>[[user:show_email]]</strong>
 					</label>
 				</div>
+        -->
 				<div class="checkbox">
 					<label>
 						<input type="checkbox" data-property="showfullname" <!-- IF settings.showfullname -->checked<!-- ENDIF settings.showfullname -->/> <strong>[[user:show_fullname]]</strong>
@@ -115,6 +119,7 @@
 				</div>
 			</div>
 
+      <!--
 			<h4>[[global:language]]</h4>
 			<div class="well">
 				<select data-property="userLang" class="form-control">
@@ -123,6 +128,7 @@
 					<!-- END languages -->
 				</select>
 			</div>
+      -->
 
 
 			<!-- BEGIN customSettings -->
