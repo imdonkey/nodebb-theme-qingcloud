@@ -3,7 +3,9 @@
 	"hooks": [],
 	"scripts": [
 		"lib/persona.js",
-		"lib/modules/nprogress.js"
+		"lib/modules/nprogress.js",
+		"lib/modules/jquery.qrcode.js",
+		"lib/modules/qrcode.js"
 	],
   "staticDirs": {
     "images": "images"

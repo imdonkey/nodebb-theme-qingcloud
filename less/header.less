@@ -289,3 +289,31 @@
 	padding: 1px 2px;
 	font-family: @font-family-sans-serif;
 }
+
+@media (min-width: 1024px) {
+	.qr_code_pc {
+		position: fixed;
+	  right: 0;
+	  top: 150px;
+	  z-index: 100;
+	  padding: 16px;
+	  margin: 0;
+	  border: 1px solid #d9dadc;
+	  background-color: #fff;
+	  text-align: center;
+		.qr_code_pc_img canvas {
+			width: 102px;
+			height: 102px;
+		}
+		p {
+			font-size: 14px;
+	    line-height: 20px;
+			margin: 0;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.qr_code_pc {
+		display: none;
+	}
+}
