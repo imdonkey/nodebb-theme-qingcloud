@@ -28,7 +28,7 @@
 	</script>
 	<script src="{relative_path}/nodebb.min.js?{script-buster}"></script>
 	<!-- IMPORT partials/requirejs-config.tpl -->
-	
+
 	<!-- IF useCustomJS -->
 	{{customJS}}
 	<!-- ENDIF useCustomJS -->
@@ -44,5 +44,9 @@
 			<!-- IMPORT partials/menu.tpl -->
 		</div>
 	</nav>
+	<div class="qr_code_pc">
+	  <div id="js_pc_qr_code_img" class="qr_code_pc_img"></div>
+	  <p>扫描二维码<br>与朋友分享</p>
+	</div>
 	<div class="container" id="content" component="header">
 	<!-- IMPORT partials/noscript/warning.tpl -->
